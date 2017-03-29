@@ -73,7 +73,7 @@ function makeDO() {
         user_data: null,
         private_networking: false,
         volumes: null,
-        tags: null
+        tags: 'p'
     }
     api.dropletsCreate(dropletData, function(err, resp, body) {
         if (err) {
